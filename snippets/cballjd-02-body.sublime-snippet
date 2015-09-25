@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+body.index
+	header.hidden-print
+		.container
+			.row
+				.col-md-12
+					.home
+						a(href='/')
+							span.title $1Title
+							span.name  by $2Gema Buj 
+					ul.nav.nav-pills
+						li
+							a(href='/about') $3About
+						li
+							a(href='/') $4Posts
+						li
+							a(href='/talks') $5Talks
+						li
+							a(href='/contact') $6Contact
+	//masukan cballjd-03 disini
+	$7
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cballjd-02-body</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

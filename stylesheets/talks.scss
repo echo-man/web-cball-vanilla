@@ -1,0 +1,58 @@
+.talk {
+  h2 {
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+  h5 {
+    margin: 4px 0 12px;
+
+    .separator {
+      display: inline-block;
+      margin: 0 10px;
+    }
+  }
+
+  .description {
+    margin: 40px 0;
+  }
+
+  .slides, .video {
+    margin-bottom: 30px;
+
+    h4 {
+      margin-bottom: 12px;
+    }
+  }
+}
+
+.talk-list {
+  list-style: none;
+  margin: 20px 0 36px 0;
+  padding: 0;
+
+  .talk-link {
+    display: inline-block;
+    vertical-align: middle;
+    width: 70%;
+  }
+
+  .year {
+    display: inline-block;
+    margin-left: 12px;
+  }
+
+  .none {
+    color: #aaa;
+  }
+}
+
+.post-body img.talk-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 16px 0 0;
+}

@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		meta(content='IE=edge', http-equiv='X-UA-Compatible')
+		title $1Title
+		meta(content='width=device-width, initial-scale=1', name='viewport')
+		meta(content='$2Writings | $3Gema Buj', name='$4og:site_name')
+		meta(content='$5blog', name='$6og:type')
+		meta(name='description', content='$7Writing')
+		//if lt IE 9
+			script(src='//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+			script(src='//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
+		link(href='//cloud.typography.com/6222872/746702/css/fonts.css', media='all', rel='stylesheet', type='text/css')
+		link(href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css', media='all', rel='stylesheet', type='text/css')
+		link(href='/stylesheets/application.css', media='all', rel='stylesheet', type='text/css')
+		link(href='/stylesheets/print.css', media='print', rel='stylesheet', type='text/css')
+	//masukan cballjd-02 disini
+	$8
+	
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cballjd-01-head</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

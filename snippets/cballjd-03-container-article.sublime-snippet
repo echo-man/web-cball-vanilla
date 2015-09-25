@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[
+.container
+	.row
+		#main.col-md-10.col-md-offset-1
+			article
+				.post-header
+					.inner
+						a(href='$1')
+							img.img-responsive(src='$2')
+						.date
+							.month $3Dec
+							.day $422
+							.year $52014
+				.post-body
+					h2.title
+						a(href='$6')
+							| $6Bring some ES6 Awesome with 
+					.date.subtitle $7December 22, 2014
+					.by
+						a.author(target='_blank', href='$8')
+							img(src='$9')
+							.twitter
+								div
+									i.fa.fa-twitter
+									|  $10My Twitter
+					hr
+					p
+						| $10Text
+					a.read-more-link(href='$11') Continue reading »
+				hr
+			//masukan cball-jd-04 disini
+			$12
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cballjd-03-container-article</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
